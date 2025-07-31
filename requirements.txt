@@ -1,0 +1,5 @@
+gradio
+llama-index-embeddings-mixedbreadai
+llama-index-llms-groq
+llama-index
+llama_parse
