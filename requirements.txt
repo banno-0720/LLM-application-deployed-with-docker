@@ -1,5 +1,8 @@
 gradio
-llama-index-embeddings-mixedbreadai
-llama-index-llms-groq
+python-dotenv
 llama-index
-llama_parse
+llama-parse
+llama-index-llms-groq
+llama-index-embeddings-cohere
+torch
+transformers
