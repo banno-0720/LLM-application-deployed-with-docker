@@ -4,5 +4,3 @@ llama-index
 llama-parse
 llama-index-llms-groq
 llama-index-embeddings-cohere
-torch
-transformers
