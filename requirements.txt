@@ -1,6 +1,7 @@
-gradio
-python-dotenv
-llama-index
-llama-parse
-llama-index-llms-groq
-llama-index-embeddings-cohere
+gradio==5.34.0
+llama-index==0.12.42
+llama-parse==0.6.54
+llama-index-llms-groq==0.3.2
+llama-index-embeddings-cohere==0.5.1
+torch>=2.1.0,<2.3.0
+transformers>=4.35.0,<4.40.0

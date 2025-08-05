@@ -1,13 +1,9 @@
 import os
 import gradio as gr
-from dotenv import load_dotenv 
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 from llama_index.embeddings.cohere import CohereEmbedding
 from llama_index.llms.groq import Groq
 from llama_parse import LlamaParse
-
-# Load variables from .env file
-load_dotenv()
 
 # API keys
 llama_cloud_key = os.environ.get("LLAMA_CLOUD_API_KEY")
@@ -147,6 +143,5 @@ with gr.Blocks(
         queue=False 
     )
 
-# Launch the demo
 if __name__ == "__main__":
-    demo.launch()
+    demo.launch(server_name="0.0.0.0", server_port=7860, share=True)
